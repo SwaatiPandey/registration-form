@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User registration form</title>
+</head>
+<body>
+    <h1>User Registration Form</h1>
+    <form action=""> 
+<fieldset>
+            <legend>User Details</legend>
+            <label for="First Name"><b>First Name  </b></label> 
+        <input type="text" placeholder="Enter  first Name" name="fFirst Name" id="First Name" required>
+     <br>
+         <br>
+         <label for="Last Name"><b>Last Name  </b></label> 
+         <input type="text" placeholder="Enter last Name" name="Last Name" id="Last Name" required>
+
+<br>
+<br></fieldset>
+       <fieldset>
+           <legend>Email Section</legend>
+           <label for="email"><b>Email   </b></label> 
+        <input type="text" placeholder="Enter Email" name="email" id="email" required>
+     <br>
+     <br>
+         <label for="psw"><b>Password</b></label> 
+         <input type="password" placeholder="Enter Password" name="psw" id="psw" required>    
+     <br>
+     <br>
+     <label for="psw-repeat"><b>Repeat Password</b></label>
+     <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+     <br>
+       </fieldset>
+       <fieldset>
+        <legend>Employment Details</legend> 
+        <label for="For Company"><strong>For Company</strong></label>
+           <br>
+           <br>
+           <select name="Company" id="Company">
+            <option value="Raw Engineering">Raw Engineering</option>
+            <option value="Contentstack">Contentstack</option>
+            <option value="Surfboard">Surfboard/option>
+           </select>
+           <p><strong>Please select your  employment type:</strong></p>
+  <input type="radio" id="trainee" name="employment type" value="trainee">
+  <label for="male">Trainee</label><br>
+  <input type="radio" id="Employee" name="employment type" value="Employee">
+  <label for="female">Employee</label><br>
+  <input type="radio" id="Consultant" name="emploment type" value="Consultant">
+  <label for="other">Consultant</label>
+
+  <br>    
+       </fieldset>
+       <fieldset>
+           <legend>Personal Interest</legend>
+           <label for="Personal Interest"><strong> Personal Interest</strong> </label>
+           <br>
+           <input type="checkbox" id="Personal Interest" name="Personal Interest" value="Personal Interest">
+  <label for="Personal Interest"> Singing</label><br>
+  <input type="checkbox" id="Personal Interest" name="Personal Interest" value="Personal Interest">
+  <label for="Personal Interest"> Dancing</label><br>
+  <input type="checkbox" id="Personal Interest" name="Personal Interest" value="Personal Interest">
+ <label for="Personal Interest"> Drawing</label><br><br>
+       </fieldset>     
+<br>
+    <input type="submit" style="text-align:center" value="submit">
+    <input type="Reset" style="text-align:center" value="Reset">
+    
+    </form>
+</body>
+</html>
